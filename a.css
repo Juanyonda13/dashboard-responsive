@@ -1,0 +1,5 @@
+section .spread {
+    transform: translate(0);
+    display: none; 
+    /*para que aparezca el menu con JS*/
+}

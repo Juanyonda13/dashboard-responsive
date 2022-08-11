@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menuHamb {
+    background-color: blueviolet;
+    cursor: pointer;
+    border: 1px solid grey;
+    border-radius: 4px;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+}
+
+.menuNav {
+    position: fixed;
+    background-color: blueviolet;
+    display: flex;
+    padding-top: 25px;
+    flex-direction: column;
+    height: 100vh;
+    width: 10%;
+    transition: trasnform .3 ease-in-out;
+    transform: translate(-110%);
+    /*Sacar el menu del Viewport transform: translate(-110%)*/
+
+}
+
+li {
+    margin: 5px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.spread {
+    transform: translate(0);
+    /*para que aparezca el menu con JS*/
+}
